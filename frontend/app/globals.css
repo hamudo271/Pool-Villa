@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+:root {
+  /* Brand Colors - Yeogi Eottae / Airbnb Inspired */
+  --primary: #F7323F; /* Yeogi Red */
+  --primary-hover: #D91C29;
+  
+  /* Neutral Colors */
+  --background: #FFFFFF;
+  --surface: #FFFFFF;
+  --surface-hover: #F7F7F7;
+  --border: #EBEBEB;
+  --border-hover: #DDDDDD;
+  
+  /* Text Colors */
+  --text-primary: #222222;
+  --text-secondary: #717171;
+  --text-tertiary: #B0B0B0;
+  
+  /* Status Colors */
+  --success: #008489;
+  --error: #C13515;
+  
+  /* Layout */
+  --max-width: 1280px; /* Wider container for modern look */
+  --header-height: 80px;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --radius-lg: 24px;
+}
+
+@theme {
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-hover: var(--surface-hover);
+  
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-tertiary: var(--text-tertiary);
+  
+  --color-border: var(--border);
+  --color-border-hover: var(--border-hover);
+  
+  --radius-DEFAULT: var(--radius);
+  --radius-sm: var(--radius-sm);
+  --radius-lg: var(--radius-lg);
+}
+
+body {
+  background: var(--background);
+  color: var(--text-primary);
+  font-family: var(--font-noto), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Scrollbar for Webkit */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DDDDDD;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #BBBBBB;
+}
+
+/* Utility Class Overrides or Additions if needed */
+.container-custom {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .container-custom {
+    padding: 0 16px;
+  }
+}
