@@ -1,4 +1,4 @@
-:HL["/_next/static/chunks/9483bb463cfab63f.css","style"]
-:HL["/_next/static/chunks/4a65aad337d3cbc1.css","style"]
-:HL["/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"buildId":"xIGPx3Gp5PSA6cqDvuJ2I","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"search","paramType":null,"paramKey":"search","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+:HL["/Pool-Villa/_next/static/chunks/9483bb463cfab63f.css","style"]
+:HL["/Pool-Villa/_next/static/chunks/4a65aad337d3cbc1.css","style"]
+:HL["/Pool-Villa/_next/static/media/fca78c2ee6cec166-s.p.11a55858.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"buildId":"Nj19tLNCiwRvv1cdnTKKq","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"search","paramType":null,"paramKey":"search","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

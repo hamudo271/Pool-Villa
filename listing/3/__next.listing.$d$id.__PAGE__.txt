@@ -1,7 +1,7 @@
 1:"$Sreact.fragment"
-2:I[44665,["/_next/static/chunks/98ced6c4d5fc7f3c.js","/_next/static/chunks/9885762941b8f16c.js"],"default"]
-3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bf4078a036eff2c.js"],"OutletBoundary"]
+2:I[44665,["/Pool-Villa/_next/static/chunks/98ced6c4d5fc7f3c.js","/Pool-Villa/_next/static/chunks/9885762941b8f16c.js"],"default"]
+3:I[97367,["/Pool-Villa/_next/static/chunks/ff1a16fafef87110.js","/Pool-Villa/_next/static/chunks/0bf4078a036eff2c.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-:HL["/_next/static/chunks/9dc847a5fd9cbd3e.css","style"]
-0:{"buildId":"xIGPx3Gp5PSA6cqDvuJ2I","rsc":["$","$1","c",{"children":[["$","$L2",null,{"id":"3"}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/9dc847a5fd9cbd3e.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/98ced6c4d5fc7f3c.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/9885762941b8f16c.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+:HL["/Pool-Villa/_next/static/chunks/9dc847a5fd9cbd3e.css","style"]
+0:{"buildId":"Nj19tLNCiwRvv1cdnTKKq","rsc":["$","$1","c",{"children":[["$","$L2",null,{"id":"3"}],[["$","link","0",{"rel":"stylesheet","href":"/Pool-Villa/_next/static/chunks/9dc847a5fd9cbd3e.css","precedence":"next"}],["$","script","script-0",{"src":"/Pool-Villa/_next/static/chunks/98ced6c4d5fc7f3c.js","async":true}],["$","script","script-1",{"src":"/Pool-Villa/_next/static/chunks/9885762941b8f16c.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
 5:null
