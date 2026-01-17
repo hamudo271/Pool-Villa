@@ -1,7 +1,7 @@
 1:"$Sreact.fragment"
-2:I[44665,["/Pool-Villa/_next/static/chunks/98ced6c4d5fc7f3c.js","/Pool-Villa/_next/static/chunks/9885762941b8f16c.js"],"default"]
+2:I[44665,["/Pool-Villa/_next/static/chunks/692cc6e04d74f9e4.js","/Pool-Villa/_next/static/chunks/9885762941b8f16c.js"],"default"]
 3:I[97367,["/Pool-Villa/_next/static/chunks/ff1a16fafef87110.js","/Pool-Villa/_next/static/chunks/0bf4078a036eff2c.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
 :HL["/Pool-Villa/_next/static/chunks/9dc847a5fd9cbd3e.css","style"]
-0:{"buildId":"LwXzwpSVGE3f6fwgY86El","rsc":["$","$1","c",{"children":[["$","$L2",null,{"id":"12"}],[["$","link","0",{"rel":"stylesheet","href":"/Pool-Villa/_next/static/chunks/9dc847a5fd9cbd3e.css","precedence":"next"}],["$","script","script-0",{"src":"/Pool-Villa/_next/static/chunks/98ced6c4d5fc7f3c.js","async":true}],["$","script","script-1",{"src":"/Pool-Villa/_next/static/chunks/9885762941b8f16c.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"4qc6Rq55v6ffzfFdyYlgo","rsc":["$","$1","c",{"children":[["$","$L2",null,{"id":"12"}],[["$","link","0",{"rel":"stylesheet","href":"/Pool-Villa/_next/static/chunks/9dc847a5fd9cbd3e.css","precedence":"next"}],["$","script","script-0",{"src":"/Pool-Villa/_next/static/chunks/692cc6e04d74f9e4.js","async":true}],["$","script","script-1",{"src":"/Pool-Villa/_next/static/chunks/9885762941b8f16c.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
 5:null
