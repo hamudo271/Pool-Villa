@@ -14,9 +14,6 @@ const nextConfig: NextConfig = {
     ],
     unoptimized: true,
   },
-  output: 'export',
-  trailingSlash: true,
-  basePath: process.env.NODE_ENV === 'production' ? '/Pool-Villa' : '',
 };
 
 export default nextConfig;
