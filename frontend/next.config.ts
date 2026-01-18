@@ -15,7 +15,8 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   output: 'export',
-  // basePath: '/Pool-Villa', // Enable if deploying to https://user.github.io/Pool-Villa
+  trailingSlash: true,
+  basePath: process.env.NODE_ENV === 'production' ? '/Pool-Villa' : '',
 };
 
 export default nextConfig;

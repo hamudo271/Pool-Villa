@@ -4,11 +4,13 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import ListingCard from "./ListingCard";
 
+import { API_URL } from "@/lib/api";
+
 export default function FeaturedListings() {
   const [listings, setListings] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:4000/listings")
+    fetch(`${API_URL}/listings`)
       .then((res) => res.json())
       .then((data) => setListings(data))
       .catch((err) => console.error(err));

@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ListingCard from "@/components/ListingCard";
+import { API_URL } from "@/lib/api";
 
 export default function NearbyPage() {
   const [listings, setListings] = useState([]);
@@ -11,7 +12,7 @@ export default function NearbyPage() {
 
   useEffect(() => {
     // For MVP, just fetch all listings. In real app, filter by geolocation.
-    fetch("http://localhost:4000/listings")
+    fetch(`${API_URL}/listings`)
       .then((res) => res.json())
       .then((data) => {
         setListings(data);

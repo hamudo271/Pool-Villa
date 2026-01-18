@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BookingCard from "@/components/BookingCard";
+import { API_URL } from "@/lib/api";
 
 export default function BookingPage() {
   const [bookings, setBookings] = useState([]);
@@ -12,7 +13,7 @@ export default function BookingPage() {
   useEffect(() => {
     const fetchBookings = async () => {
       try {
-        const res = await fetch("http://localhost:4000/bookings/my");
+        const res = await fetch(`${API_URL}/bookings/my`);
         if (!res.ok) throw new Error("Failed to fetch bookings");
         const data = await res.json();
         setBookings(data);
